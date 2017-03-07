@@ -1,23 +1,10 @@
 /*
-Given two words (start and end), and a dictionary, find all shortest transformation sequence(s) from start to end, such that:
-
-Only one letter can be changed at a time
-Each intermediate word must exist in the dictionary
-Notice
-All words have the same length.
-All words contain only lowercase alphabetic characters.
-
-Given:
-start = "hit"
-end = "cog"
-dict = ["hot","dot","dog","lot","log"]
-Return
- [
-    ["hit","hot","dot","dog","cog"],
-    ["hit","hot","lot","log","cog"]
-  ]
+@Copyright:LintCode
+@Author:   tong12
+@Problem:  http://www.lintcode.com/problem/word-ladder-ii
+@Language: Java
+@Datetime: 17-03-05 21:21
 */
-
 
 class Solution {
 
